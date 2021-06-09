@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Jonny Feats</name>
+		<update version="0.0.1">
+            <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
+		</update>
+	</info>
+
+	<element name="Vampire: Undead Form" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_UNDEADFORM">
+		<description>
+			<p>Since you've been infected with the Vampire pleague, you gain the following benefits</p>
+			<ul>
+				<li>Your Dexterity score increases by 2 and your Charisma score increases by 1, to a maximum of 16.</li>
+                <li>Your creature type changes to undead. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.</li>
+				<li>If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious.</li>
+				<li>Furthermore, you cannot die from old age and you do not require air, food or drink.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your creature type changes to undead.
+			If a spell or ability other than your own would cause you to gain Hit Points, you get temporary Hit Points instead.</description>
+		</sheet>
+		<rules>
+            <stat name="dexterity" value="2" />
+			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+</elements>

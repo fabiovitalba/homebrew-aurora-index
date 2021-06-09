@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Jonny Weapons</name>
+        <update version="0.0.1">
+            <file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
+        </update>
+    </info>
+
+    <!-- Treasures -->
+    <element name="Shadowsteel Gem Necklace" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_SHADOWSTEELGEMNECKLACE">
+		<description>
+			<p>A golden Necklace with a black gem.</p>
+		</description>
+		<setters>
+			<set name="keywords">necklace</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+    <element name="Ruby Necklace" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_RUBYNECKLACE">
+		<description>
+			<p>A golden Necklace with a ruby.</p>
+		</description>
+		<setters>
+			<set name="keywords">necklace</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+</elements>

@@ -4,12 +4,17 @@
         <name>Homebrew Core - Core</name>
         <description>This is the core Homebrew Content.</description>
         <author url="">Fabio Vitalba</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
         </update>
     </info>
     <files>
+        <!-- classes -->
+        <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
+
         <!-- items -->
+        <file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
+        <file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
         <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 
         <!-- spells -->
