@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Jonny Necromancy Spells</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
         </update>
     </info>
