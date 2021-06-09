@@ -9,6 +9,6 @@
         </update>
     </info>
     <files>
-        <file name="homebrew-core.index" url="" />
+        <file name="homebrew-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/core/homebrew-core.index" />
     </files>
 </index>
