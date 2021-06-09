@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding "utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
     <info>
-        <name>Weapons</name>
+        <name>Jonny Weapons</name>
         <update version="0.0.1">
-            <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/core/items/jonny-items-weapons.xml" />
+            <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
         </update>
     </info>
 
@@ -17,13 +17,11 @@
             <set name="keywords">sword</set>
             <set name="category">Magic Weapons</set>
             <set name="cost" currency="gp">0</set>
-            <set name="type" addition="any sword">Weapon</set>
+            <set name="type" addition="sword">Weapon</set>
             <set name="attunement">true</set>
-            <set name="rarity">Very rare</set>
-            <set name="weight" lb="2">2 lb.</set>
-            <set name="slot">onehand</set>
-            <set name="damage" type="piercing">1d6</set>
-            <set name="profieciency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+            <set name="rarity">Very Rare</set>
+            <set name="weapon">Shortsword</set>
+            <set name="name-format">Shadow Steel Blade</set>
         </setters>
     </element>
 </elements>
