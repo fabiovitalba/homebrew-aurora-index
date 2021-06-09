@@ -5,10 +5,10 @@
         <description>This is the core Homebrew Content.</description>
         <author url="">Fabio Vitalba</author>
         <update version="0.0.1">
-            <file name="" url="" />
+            <file name="core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/core.index" />
         </update>
     </info>
     <files>
-        <file name="" url="" />
+        <file name="homebrew-core.index" url="" />
     </files>
 </index>
