@@ -9,6 +9,9 @@
         </update>
     </info>
     <files>
+        <!-- items -->
         <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
+        <!-- spells -->
+        <file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
     </files>
 </index>
