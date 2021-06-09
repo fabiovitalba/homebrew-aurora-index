@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding "utf-8"?>
+<index>
+    <info>
+        <name>Homebrew Core</name>
+        <description>This is the core Homebrew Content.</description>
+        <author url="">Fabio Vitalba</author>
+        <update version="0.0.1">
+            <file name="" url="" />
+        </update>
+    </info>
+    <files>
+        <file name="" url="" />
+    </files>
+</index>
