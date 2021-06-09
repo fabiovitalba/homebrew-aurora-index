@@ -9,7 +9,7 @@
 
     <!-- 4th Level Spells -->
     <element name="Curse of Foul Blight" type="Spell" source="Homebrew (Jonny)" id="ID_HB_JONNY_SPELL_NECROMANCY_CURSE_OF_FOUL_BLIGHT">
-        <supports>Sorcerer, Wizard, Warlock, Artificer, Druid, Cleric, Paladin</support>
+        <supports>Sorcerer, Wizard, Warlock, Artificer, Druid, Cleric, Paladin</supports>
         <description>
             <p>This spell curses a creature on the same plane of existence as you with a putrefying and stinking pox. The target must make a Charisma saving throw against the spell's DC, which is modified by the Curse Strength Table. On a successful save, the target becomes aware that somebody attempted to curse them. On a failed save, the target becomes cursed and is unaware of this. Upon the completion of this curse's triggering event, the target automatically advances to stage 1 of this curse.</p>
             <p class="indent"><b>Triggering event.</b> The target searches their backpack, clothes drawer, or wherever else they store their garments, they find an infestation of insects.</p>
