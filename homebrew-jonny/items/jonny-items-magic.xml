@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Jonny Magical Items</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
         </update>
     </info>
@@ -24,23 +24,6 @@
 			<set name="rarity">Very Rare</set>
 			<set name="slot">misc</set>
             <set name="attunement">true</set>
-		</setters>
-	</element>
-
-    <element name="Necklace of Fireballs" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_NECKLACEOFFIREBALLS">
-		<description>
-			<p>This Necklace has 7 orange, glowing beads, that are warm to the touch.</p>
-			<p class="indent">As an action, you can remove one of the beads and consume it in order to cast a <em>fireball</em> spell at 3rd level.</p>
-		</description>
-		<setters>
-			<set name="keywords">necklace, fireball</set>
-			<set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Wondrous Item</set>
-			<set name="attunement">false</set>
-			<set name="rarity">Very Rare</set>
-            <set name="charges">7</set>
 		</setters>
 	</element>
 
