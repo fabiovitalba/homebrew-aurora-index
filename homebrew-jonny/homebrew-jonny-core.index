@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding "utf-8"?>
+<index>
+    <info>
+        <name>Homebrew Core - Core</name>
+        <description>This is the core Homebrew Content.</description>
+        <author url="">Fabio Vitalba</author>
+        <update version="0.0.1">
+            <file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
+        </update>
+    </info>
+    <files>
+        <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/core/items/jonny-items-weapons.xml" />
+    </files>
+</index>
