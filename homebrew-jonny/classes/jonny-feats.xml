@@ -2,13 +2,16 @@
 <elements>
 	<info>
 		<name>Jonny Feats</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
             <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 		</update>
 	</info>
 
-	<element name="Vampire: Undead Form" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_UNDEADFORM">
+	<element name="Vampire - Undead Form" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_UNDEADFORM">
+		<prerequisite>Dexterity 13 or higher</prerequisite>
+		<requirements>[dex:13]</requirements>
 		<description>
+			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
 			<p>Since you've been infected with the Vampire pleague, you gain the following benefits</p>
 			<ul>
 				<li>Your Dexterity score increases by 2 and your Charisma score increases by 1, to a maximum of 16.</li>
@@ -24,6 +27,6 @@
 		<rules>
             <stat name="dexterity" value="2" />
 			<stat name="charisma" value="1" />
-		</rules>
+		</rules>ss
 	</element>
 </elements>
