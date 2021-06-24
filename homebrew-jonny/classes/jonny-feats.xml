@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Feats</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
             <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 		</update>
 	</info>
@@ -27,6 +27,26 @@
 		<rules>
             <stat name="dexterity" value="2" />
 			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+	<element name="Vampire - Blood Fury" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_BLOODFURY">
+		<prerequisite>Dexterity 13 or higher</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
+			<p>You have become possessed by the thirst that grips all Vampires. In combat, this thirst drives you into an insatiable frenzy of bloodshed. Whenever you deal combat damage with an unarmed strike or a melee/ranged weapon to a target that can bleed, and is not undead or a construct, you gain one Fury Point. You may only have a maximum of 4 Fury Points at any time. Upon completing a short or long rest, the number of Fury Points you have is reset to 0. These points are used by certain abilities that you can learn through your transformation levels.</p>
+			<p class="indent">You can spend Fury Points (FP) to use the following abilities:</p>
+			<ul>
+				<li><b>Fanged Bite (1FP).</b> Bonus Action, Special unarmed Bite Attack. 1d4 + STR/DEX.</li>
+                <li><b>Calculated Strike (1FP).</b> On a melee weapon attack hit add 1d6 Damage. No Fury Points are generated.</li>
+				<li><b>Vampiric Mist (2FP).</b> Bonus Action, Teleport up to 30 ft. to an unoccupied space you can see.</li>
+				<li><b>Unearthly Reflexes (1FP).</b> After a DEX Saving Throw, before the Result is determined. Use reaction to take half or no Damage.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You learn the ability to use various Blood Fury Abilities.</description>
+		</sheet>
+		<rules>
 		</rules>
 	</element>
 	<element name="Vampire - The Sanguine Curse" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_THESANGUINECURSE">
