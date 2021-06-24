@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Feats</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
             <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 		</update>
 	</info>
@@ -27,6 +27,26 @@
 		<rules>
             <stat name="dexterity" value="2" />
 			<stat name="charisma" value="1" />
-		</rules>ss
+		</rules>
+	</element>
+	<element name="Vampire - The Sanguine Curse" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_THESANGUINECURSE">
+		<prerequisite>Dexterity 13 or higher</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
+			<p>The sanguine curse has taken a hold on you. As a result you gain the following features:</p>
+			<ul>
+				<li>You cannot enter a residence you do not own without an invitation from one of the occupants. If you enter a residence involuntarily such as being dragged into one, you take 1d10 psychic damage at the start of your turn while you are inside it.</li>
+                <li>You gain Darkvision (60 ft.) if you do not already have it.</li>
+				<li>While in sunlight, you have disadvantage on attack rolls and ability checks.</li>
+				<li>You must feed every 7 days.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You cannot enter residences you don't own. You also have disadvantage on rolls, while in sunlight.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
 	</element>
 </elements>
