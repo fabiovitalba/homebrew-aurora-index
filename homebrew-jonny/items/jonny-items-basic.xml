@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Jonny Weapons</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
         </update>
     </info>
@@ -30,6 +30,46 @@
 			<set name="category">Treasure</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon Tooth (Adult)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_BLACKDRAGONTOOTHADULT">
+		<description>
+			<p>A tooth extracted directly from the mouth of an adult black Dragon.</p>
+		</description>
+		<setters>
+			<set name="keywords">tooth</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">1000</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Black Dragon Scale (Adult)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_BLACKDRAGONSCALEADULT">
+		<description>
+			<p>A scale cut from the body of an adult black Dragon.</p>
+		</description>
+		<setters>
+			<set name="keywords">scale</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Compendium of the Witch Circles" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_WITCHCIRCLECOMPENDIUM">
+		<description>
+			<p>This Compendium contains basic information about the most common Witch Circles.</p>
+		</description>
+		<setters>
+			<set name="keywords">compendium</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">false</set>
 			<set name="valuable">true</set>
 		</setters>
 	</element>
