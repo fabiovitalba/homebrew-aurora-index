@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Jonny Feats</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
             <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 		</update>
 	</info>
 
-	<element name="Vampire - Undead Form" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_UNDEADFORM">
+	<element name="Vampire - Undead Form" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_UNDEADFORM">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
 		<description>
@@ -29,7 +29,7 @@
 			<stat name="charisma" value="1" />
 		</rules>
 	</element>
-	<element name="Vampire - Blood Fury" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_BLOODFURY">
+	<element name="Vampire - Blood Fury" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_BLOODFURY">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
 		<description>
@@ -49,7 +49,7 @@
 		<rules>
 		</rules>
 	</element>
-	<element name="Vampire - The Sanguine Curse" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEATS_VAMPIRE_THESANGUINECURSE">
+	<element name="Vampire - The Sanguine Curse" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_THESANGUINECURSE">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
 		<description>
