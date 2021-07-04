@@ -2,10 +2,11 @@
 <elements>
 	<info>
 		<name>Jonny Class Features</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="jonny-class-features.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-class-features.xml" />
 		</update>
 	</info>
+
 	<element name="Soul of the Raven (Revisited)" type="Archetype Feature" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN">
 		<description>
 			<p>At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven’s form. While merged, you become Tiny, you replace your speed with the raven’s, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal.</p>
@@ -14,4 +15,28 @@
 			<description>When your raven is perched on your shoulder, your body merges with your raven’s form. While merged, you become Tiny, you replace your speed with the raven’s, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal.</description>
 		</sheet>
 	</element>
+
+	<!-- Archetypes -->
+	<element name="The Raven Queen (Revisited)" type="Archetype" source="Unearthed Arcana: Warlock and Wizard" id="ID_WOTC_UA_ARCHETYPE_RAVEN_QUEEN">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature’s death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.</p>
+            <p class="indent">The Raven Queen’s followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.</p>
+            <div element="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_EXPANDED_SPELL_LIST" />
+            <div element="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_SENTINEL_RAVEN" />
+            <div element="ID_HB_JONNY_CLASSES_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN" />
+            <div element="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_RAVENS_SHIELD" />
+            <div element="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_QUEENS_RIGHT_HAND" />
+        </description>
+        <sheet display="false">
+            <description>You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_EXPANDED_SPELL_LIST" level="1"/>
+            <grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_SENTINEL_RAVEN" level="1"/>
+            <grant type="Archetype Feature" id="ID_HB_JONNY_CLASSES_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN" level="6"/>
+            <grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_RAVENS_SHIELD" level="10"/>
+            <grant type="Archetype Feature" id="ID_WOTC_UA_ARCHETYPE_FEATURE_RAVEN_QUEEN_QUEENS_RIGHT_HAND" level="14"/>
+        </rules>
+    </element>
 </elements>
