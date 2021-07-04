@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Class Features</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="jonny-class-features.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-class-features.xml" />
 		</update>
 	</info>
@@ -17,7 +17,7 @@
 	</element>
 
 	<!-- Archetypes -->
-	<element name="The Raven Queen (Revisited)" type="Archetype" source="Unearthed Arcana: Warlock and Wizard" id="ID_WOTC_UA_ARCHETYPE_RAVEN_QUEEN">
+	<element name="The Raven Queen (Revisited)" type="Archetype" source="Unearthed Arcana: Warlock and Wizard" id="ID_HB_JONNY_CLASSES_ARCHETYPE_RAVEN_QUEEN">
         <supports>Otherworldly Patron</supports>
         <description>
             <p>You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature’s death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.</p>
