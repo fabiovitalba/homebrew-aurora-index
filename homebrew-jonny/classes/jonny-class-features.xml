@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Jonny Class Features</name>
+		<update version="0.0.1">
+			<file name="jonny-class-features.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-class-features.xml" />
+		</update>
+	</info>
+	<element name="Soul of the Raven (Revisited)" type="Archetype Feature" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_ARCHETYPE_FEATURE_RAVEN_QUEEN_SOUL_OF_THE_RAVEN">
+		<description>
+			<p>At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven’s form. While merged, you become Tiny, you replace your speed with the raven’s, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>When your raven is perched on your shoulder, your body merges with your raven’s form. While merged, you become Tiny, you replace your speed with the raven’s, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal.</description>
+		</sheet>
+	</element>
+</elements>
