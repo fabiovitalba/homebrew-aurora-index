@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-    <info>
-        <name>Homebrew Core</name>
-        <description>This is the core Homebrew Content.</description>
-        <author>Fabio Vitalba</author>
-        <update version="0.0.1">
-            <file name="homebrew-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-core.index" />
-        </update>
-    </info>
-    <files>
-        <file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
-    </files>
+	<info>
+		<name>Homebrew Core</name>
+		<description>This is the core Homebrew Content.</description>
+		<author>Fabio Vitalba</author>
+		<update version="0.0.2">
+			<file name="homebrew-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-core.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Custom Homebrewn Files -->
+		<file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
+
+		<!-- Custom Files others created -->
+		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/tashas-cauldron-of-everything.index" />
+		<file name="candlekeep-mysteries.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/candlekeep-mysteries.index" />
+		<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft.index" />
+	</files>
 </index>
