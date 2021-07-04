@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Jonny Divine Blessings</name>
+		<update version="0.0.1">
+			<file name="jonny-items-gifts.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-gifts.xml" />
+		</update>
+	</info>
+	<element name="Blessing of the Raven Queen" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_BLESSINGOFTHERAVENQUEEN">
+		<description>
+			<p>Your whole body, except your face, is covered in tattoo's depicting raven feathers. You gain a permanent bonus to your Constitution.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Blessing</set>
+			<set name="slot">gift</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+		</rules>
+	</element>
+</elements>
