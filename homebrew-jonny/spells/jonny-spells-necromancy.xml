@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <info>
-        <name>Jonny Necromancy Spells</name>
-        <update version="0.0.2">
-            <file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
-        </update>
-    </info>
+	<info>
+		<name>Jonny Necromancy Spells</name>
+		<update version="0.0.2">
+			<file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
+		</update>
+	</info>
 
-    <!-- 4th Level Spells -->
-    <element name="Curse of Foul Blight" type="Spell" source="Homebrew (Jonny)" id="ID_HB_JONNY_SPELL_NECROMANCY_CURSE_OF_FOUL_BLIGHT">
-        <supports>Sorcerer, Wizard, Warlock, Artificer, Druid, Cleric, Paladin</supports>
-        <description>
-            <p>This spell curses a creature on the same plane of existence as you with a putrefying and stinking pox. The target must make a Charisma saving throw against the spell's DC, which is modified by the Curse Strength Table. On a successful save, the target becomes aware that somebody attempted to curse them. On a failed save, the target becomes cursed and is unaware of this. Upon the completion of this curse's triggering event, the target automatically advances to stage 1 of this curse.</p>
-            <p class="indent"><b>Triggering event.</b> The target searches their backpack, clothes drawer, or wherever else they store their garments, they find an infestation of insects.</p>
-            <p class="indent"><b>Stage 1.</b> The cursed creature is afflicted with a minor cough. Whenever they speak more than a few words at a time, they break into a fit of coughing.</p>
-            <p class="indent"><b>Stage 2.</b> The smell of putrescence lingers in the air around the cursed creature. Food and drink quickly spoil, jewellery tarnishes, and wood rots within 10 feet of the cursed creature. Additionally, the cursed creature has disadvantage on Charisma saving throws.</p>
-            <p class="indent"><b>Stage 3.</b> The cursed creature's skin becomes riddled with pock marks, pustules, and lesions. Insects flock to the cursed creature, infesting their clothes. The cursed creature's Charisma score becomes 6, unless it was already lower.</p>
-            <p class="indent"><b>Culmination</b> Upon failing the final escalation check, the cursed creature twists into a deformed figure and becomes a Plague Carrion. If the creature is a player character, they become an NPC under the GM's control.</p>
-        </description>
-        <setters>
-            <set name="keywords">blight</set>
-            <set name="level">4</set>
-            <set name="school">Necromancy</set>
-            <set name="time">1 hour</set>
-            <set name="duration">Until cured</set>
-            <set name="range">Self</set>
-            <set name="hasVerbalComponent">true</set>
-            <set name="hasSomaticComponent">true</set>
-            <set name="hasMaterialComponent">true</set>
-            <set name="materialComponent">a shred of the target's clothing, a chunk of rotten flesh, and a Shadowsteel jewellery box worth at least 1,000 gp, all of which the spell consumes</set>
-            <set name="isConcentration">false</set>
-            <set name="isRitual">false</set>
-        </setters>
-    </element>
+	<!-- 4th Level Spells -->
+	<element name="Curse of Foul Blight" type="Spell" source="Homebrew (Jonny)" id="ID_HB_JONNY_SPELL_NECROMANCY_CURSE_OF_FOUL_BLIGHT">
+		<supports>Sorcerer, Wizard, Warlock, Artificer, Druid, Cleric, Paladin</supports>
+		<description>
+			<p>This spell curses a creature on the same plane of existence as you with a putrefying and stinking pox. The target must make a Charisma saving throw against the spell's DC, which is modified by the Curse Strength Table. On a successful save, the target becomes aware that somebody attempted to curse them. On a failed save, the target becomes cursed and is unaware of this. Upon the completion of this curse's triggering event, the target automatically advances to stage 1 of this curse.</p>
+			<p class="indent"><b>Triggering event.</b> The target searches their backpack, clothes drawer, or wherever else they store their garments, they find an infestation of insects.</p>
+			<p class="indent"><b>Stage 1.</b> The cursed creature is afflicted with a minor cough. Whenever they speak more than a few words at a time, they break into a fit of coughing.</p>
+			<p class="indent"><b>Stage 2.</b> The smell of putrescence lingers in the air around the cursed creature. Food and drink quickly spoil, jewellery tarnishes, and wood rots within 10 feet of the cursed creature. Additionally, the cursed creature has disadvantage on Charisma saving throws.</p>
+			<p class="indent"><b>Stage 3.</b> The cursed creature's skin becomes riddled with pock marks, pustules, and lesions. Insects flock to the cursed creature, infesting their clothes. The cursed creature's Charisma score becomes 6, unless it was already lower.</p>
+			<p class="indent"><b>Culmination</b> Upon failing the final escalation check, the cursed creature twists into a deformed figure and becomes a Plague Carrion. If the creature is a player character, they become an NPC under the GM's control.</p>
+		</description>
+		<setters>
+			<set name="keywords">blight</set>
+			<set name="level">4</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 hour</set>
+			<set name="duration">Until cured</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a shred of the target's clothing, a chunk of rotten flesh, and a Shadowsteel jewellery box worth at least 1,000 gp, all of which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 </elements>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <info>
-        <name>Jonny Weapons</name>
-        <update version="0.0.1">
-            <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
-        </update>
-    </info>
+	<info>
+		<name>Jonny Weapons</name>
+		<update version="0.0.1">
+			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
+		</update>
+	</info>
 
-    <!-- Magic Weapons -->
-    <element name="Shadow Steel Blade" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_SHADOWSTEELBLADE">
-        <description>
-            <p>Another deadly invention, but not by gnomes, Shadow Steel is said to require souls to be produced. According to rumours, the souls are torn into pieces using dark spells and transformed into a raw spiritual essence of pain, which takes a pitch-black sheen reflecting no light. Weapons made from it cannot be resisted by conventional metals. They cut through the spiritual essence of living flesh, discharging excruciating pain into the victim. The rare survivors of these weapons report levels of pain that can render a person inert for hours.</p>
-            <p class="indent">When weilding a weapon made of Shadow Steel, you have advantage on attack rolls made against any target wearing medium or heavy armour. A creature hit by a Shadow Steel Blade must make a DC 14 Constitution saving throw, becoming stunned until the end of its next turn on a failed save.</p>
-        </description>
-        <setters>
-            <set name="keywords">sword</set>
-            <set name="category">Magic Weapons</set>
-            <set name="cost" currency="gp">0</set>
-            <set name="type" addition="sword">Weapon</set>
-            <set name="attunement">true</set>
-            <set name="rarity">Very Rare</set>
-            <set name="weapon">Shortsword</set>
-            <set name="name-format">Shadow Steel Blade</set>
-        </setters>
-    </element>
+	<!-- Magic Weapons -->
+	<element name="Shadow Steel Blade" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_SHADOWSTEELBLADE">
+		<description>
+			<p>Another deadly invention, but not by gnomes, Shadow Steel is said to require souls to be produced. According to rumours, the souls are torn into pieces using dark spells and transformed into a raw spiritual essence of pain, which takes a pitch-black sheen reflecting no light. Weapons made from it cannot be resisted by conventional metals. They cut through the spiritual essence of living flesh, discharging excruciating pain into the victim. The rare survivors of these weapons report levels of pain that can render a person inert for hours.</p>
+			<p class="indent">When weilding a weapon made of Shadow Steel, you have advantage on attack rolls made against any target wearing medium or heavy armour. A creature hit by a Shadow Steel Blade must make a DC 14 Constitution saving throw, becoming stunned until the end of its next turn on a failed save.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="sword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Shortsword</set>
+			<set name="name-format">Shadow Steel Blade</set>
+		</setters>
+	</element>
 </elements>

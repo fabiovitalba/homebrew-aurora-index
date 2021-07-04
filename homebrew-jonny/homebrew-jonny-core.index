@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-    <info>
-        <name>Homebrew Core - Core</name>
-        <description>This is the core Homebrew Content.</description>
-        <author url="">Fabio Vitalba</author>
-        <update version="0.0.4">
-            <file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
-        </update>
-    </info>
-    <files>
-        <!-- classes -->
-        <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
+	<info>
+		<name>Homebrew Core - Core</name>
+		<description>This is the core Homebrew Content.</description>
+		<author url="">Fabio Vitalba</author>
+		<update version="0.0.5">
+			<file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
+		</update>
+	</info>
+	<files>
+		<!-- classes -->
+		<file name="jonny-class-features.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-class-features.xml" />
+		<file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 
-        <!-- items -->
-        <file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
-        <file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
-        <file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
+		<!-- items -->
+		<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
+		<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
+		<file name="jonny-items-gifts.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-gifts.xml" />
+		<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 
-        <!-- spells -->
-        <file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
-    </files>
+		<!-- spells -->
+		<file name="jonny-spells-necromancy.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/spells/jonny-spells-necromancy.xml" />
+	</files>
 </index>

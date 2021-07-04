@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-    <info>
-        <name>Jonny Magical Items</name>
-        <update version="0.0.2">
-            <file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
-        </update>
-    </info>
+	<info>
+		<name>Jonny Magical Items</name>
+		<update version="0.0.2">
+			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
+		</update>
+	</info>
 
-    <!-- Magical Items -->
-    <element name="Tome of the Raven Queen" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_TOMEOFTHERAVENQUEEN">
+	<!-- Magical Items -->
+	<element name="Tome of the Raven Queen" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_TOMEOFTHERAVENQUEEN">
 		<description>
 			<p>This thick leather-bound volume has a black raven feather pinned on the front cover. If you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can use a bonus action to cast a spell you have written in this tome, without expending a spell slot or using any verbal or somatic components. Once used, this property of the tome can't be used again until the next dawn.</p>
-            <p class="indent">While holding this tome you can cast the <em>wall of fire</em> spell.</p>
-            <p class="indent">While attuned to the book, you can remove the feather from the book's cover. If you do so, all spells written in the book are permanently ereased.</p>
-            <p class="indent">The Raven Queen watches anyone using this tome. She can also write cryptic messages in the book. These messages appear at midnight and fade away after they are read.</p>
+			<p class="indent">While holding this tome you can cast the <em>wall of fire</em> spell.</p>
+			<p class="indent">While attuned to the book, you can remove the feather from the book's cover. If you do so, all spells written in the book are permanently ereased.</p>
+			<p class="indent">The Raven Queen watches anyone using this tome. She can also write cryptic messages in the book. These messages appear at midnight and fade away after they are read.</p>
 		</description>
 		<setters>
 			<set name="keywords">tome</set>
@@ -23,11 +23,11 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Very Rare</set>
 			<set name="slot">misc</set>
-            <set name="attunement">true</set>
+			<set name="attunement">true</set>
 		</setters>
 	</element>
 
-    <element name="Bone Glove" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_BONEGLOVE">
+	<element name="Bone Glove" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_BONEGLOVE">
 		<description>
 			<p>This glove has small finger bones on it's upper side.</p>
 			<p class="indent">As an action, you can activate the power within the glove to gain 2d4+4 hit points, but at the cost of a teammates hit points. This power can be activated once per day.</p>
@@ -43,7 +43,7 @@
 		</setters>
 	</element>
 
-    <element name="Warning Gem of the Gnomes" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_WARNINGGEMOFTHEGNOMES">
+	<element name="Warning Gem of the Gnomes" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_WARNINGGEMOFTHEGNOMES">
 		<description>
 			<p>This is a small gem that glows in case of trouble. This Gem was given by the Gnomes Rudy and Wicked.</p>
 		</description>
