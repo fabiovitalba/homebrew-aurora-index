@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Jonny Feats</name>
-		<update version="0.0.5">
-            <file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
+		<update version="0.0.6">
+			<file name="jonny-feats.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/classes/jonny-feats.xml" />
 		</update>
 	</info>
 
@@ -15,7 +15,7 @@
 			<p>Since you've been infected with the Vampire pleague, you gain the following benefits</p>
 			<ul>
 				<li>Your Dexterity score increases by 2 and your Charisma score increases by 1, to a maximum of 16.</li>
-                <li>Your creature type changes to undead. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.</li>
+				<li>Your creature type changes to undead. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.</li>
 				<li>If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious.</li>
 				<li>Furthermore, you cannot die from old age and you do not require air, food or drink.</li>
 			</ul>
@@ -25,7 +25,7 @@
 			If a spell or ability other than your own would cause you to gain Hit Points, you get temporary Hit Points instead.</description>
 		</sheet>
 		<rules>
-            <stat name="dexterity" value="2" />
+			<stat name="dexterity" value="2" />
 			<stat name="charisma" value="1" />
 		</rules>
 	</element>
@@ -33,12 +33,11 @@
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
 		<description>
-			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
 			<p>You have become possessed by the thirst that grips all Vampires. In combat, this thirst drives you into an insatiable frenzy of bloodshed. Whenever you deal combat damage with an unarmed strike or a melee/ranged weapon to a target that can bleed, and is not undead or a construct, you gain one Fury Point. You may only have a maximum of 4 Fury Points at any time. Upon completing a short or long rest, the number of Fury Points you have is reset to 0. These points are used by certain abilities that you can learn through your transformation levels.</p>
 			<p class="indent">You can spend Fury Points (FP) to use the following abilities:</p>
 			<ul>
 				<li><b>Fanged Bite (1FP).</b> Bonus Action, Special unarmed Bite Attack. 1d4 + STR/DEX.</li>
-                <li><b>Calculated Strike (1FP).</b> On a melee weapon attack hit add 1d6 Damage. No Fury Points are generated.</li>
+				<li><b>Calculated Strike (1FP).</b> On a melee weapon attack hit add 1d6 Damage. No Fury Points are generated.</li>
 				<li><b>Vampiric Mist (2FP).</b> Bonus Action, Teleport up to 30 ft. to an unoccupied space you can see.</li>
 				<li><b>Unearthly Reflexes (1FP).</b> After a DEX Saving Throw, before the Result is determined. Use reaction to take half or no Damage.</li>
 			</ul>
@@ -53,11 +52,10 @@
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
 		<description>
-			<p><i>Prerequisite: Dexterity 13 or higher</i></p>
 			<p>The sanguine curse has taken a hold on you. As a result you gain the following features:</p>
 			<ul>
 				<li>You cannot enter a residence you do not own without an invitation from one of the occupants. If you enter a residence involuntarily such as being dragged into one, you take 1d10 psychic damage at the start of your turn while you are inside it.</li>
-                <li>You gain Darkvision (60 ft.) if you do not already have it.</li>
+				<li>You gain Darkvision (60 ft.) if you do not already have it.</li>
 				<li>While in sunlight, you have disadvantage on attack rolls and ability checks.</li>
 				<li>You must feed every 7 days.</li>
 			</ul>
@@ -67,6 +65,43 @@
 		</sheet>
 		<rules>
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Vampire - Sanguine Magic" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_SANGUINE_MAGIC">
+		<prerequisite>The ability to cast spells, The Vampire - Undead Form Feat</prerequisite>
+		<requirements>[type:spell],ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_UNDEADFORM</requirements>
+		<description>
+			<p>Your curse corrupts the magic you cast. Whenever you deal non-necrotic damage with a spell or cantrip, you can choose to deal necrotic damage instead of that spell’s normal damage type. Furthermore, whenever you deal damage with a spell or cantrip, you gain one Fury Point (maximum of 1 per turn).</p>
+			<p class="indent">Additionally, you gain the following Blood Fury abilities:</p>
+			<ul>
+				<li><b>Cast in Blood (1FP).</b> Before casting a Damage-Dealing Cantrip, add CHA MOD to Damage Dealt.</li>
+				<li><b>Sanguine Spellbinding (3FP).</b> If a target has to make a CHA, INT or WIS Saving Throw, it has DADV. On multiple targets choose one.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You learn the ability to use new Blood Fury Abilities.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Vampire - Hideous Appearance" type="Feat" source="Homebrew (Jonny)" id="ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_HIDEOUSAPPEARANCE">
+		<prerequisite>Vampire - Hideous Appearance</prerequisite>
+		<requirements>ID_HB_JONNY_CLASSES_FEAT_VAMPIRE_THESANGUINECURSE</requirements>
+		<description>
+			<p>Your appearance has greatly altered from its original features. The first signs were the fangs that started to protrude from your upper row of teeth. You have no reflection in mirrors or other reflective surfaces. With dry, pale skin and occasional burns from the sun, you can hide your true appearance by concentrating on your pre-vampirism appearance. However, the following situations can reveal your true appearance:</p>
+			<ul>
+				<li>Concentrating on a spell.</li>
+				<li>Gaining the unconscious condition.</li>
+				<li>Entering hallowed ground.</li>
+				<li>Taking damage from being exposed to sunlight or free-flowing water.</li>
+				<li>Choosing to reveal your true self.</li>
+			</ul>
+			<p>In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.</p>
+		</description>
+		<sheet>
+			<description>Your appearance is now greatly altered. In order to maintain your old appearance you have to concentrate.</description>
+		</sheet>
+		<rules>
 		</rules>
 	</element>
 </elements>
