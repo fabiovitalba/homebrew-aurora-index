@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 		</update>
 	</info>
@@ -22,6 +22,24 @@
 			<set name="rarity">Very Rare</set>
 			<set name="weapon">Shortsword</set>
 			<set name="name-format">Shadow Steel Blade</set>
+		</setters>
+	</element>
+
+	<element name="Shield of Sboing" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_SHIELDOFSBOING">
+		<description>
+			<p>When wielding this shield you gain +2 to your AC, like with any normal shield. As a reaction you can redirect damage, form a melee weapon attack, back to the attacker and add 1d8 bludgeoning damage. You can use this feature 3 times per day. After that you need to make a long rest, to recharge the shield.</p>
+			<p class="indent">Attunement: Once attuned to this shield, the bond can only be broken by sprinkling the blood of a blue midnight frog upon it while casting a Remove Curse spell. Being attuned means, that you can't use any other shield except this one, unless the attunement is broken.</p>
+			<p class="indent">Curse: Whenever you use your reaction to redirect an attacks damage, you must roll a d20. If the result is 1, you suffer twice the reflected damage instead. If you should be reduced to 0 hit points, as a result of this damage, your soul will be trapped inside the shield.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="name-format">Shield of Sboing</set>
 		</setters>
 	</element>
 </elements>

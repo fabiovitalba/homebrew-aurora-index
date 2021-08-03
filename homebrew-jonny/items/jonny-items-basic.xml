@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
 		</update>
 	</info>
@@ -70,6 +70,72 @@
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="5">5 lb.</set>
 			<set name="stackable">false</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Shadowsteel Jewellery Box" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_SHADOWSTEELJEWELLERYBOX">
+		<description>
+			<p>A deep black Jewellery Box.</p>
+		</description>
+		<setters>
+			<set name="keywords">jewellery, box</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">1,000</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Undead Eyeball encased in a Gem" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_UNDEADEYEBALLENCASEDINGEM">
+		<description>
+			<p>Undead Eyeball encased in a gem.</p>
+		</description>
+		<setters>
+			<set name="keywords">eyeball, encased, gem</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Gilded Humanoid Skull" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_GILDEDHUMANOIDSKULL">
+		<description>
+			<p>Gilded Humanoid Skull.</p>
+		</description>
+		<setters>
+			<set name="keywords">necklace</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">1,000</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Medallion with the old kings signet" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_MEDALLIONOLDKINGSIGNET">
+		<description>
+			<p>There are some inscriptions or scratches on the back side of this medallion.</p>
+		</description>
+		<setters>
+			<set name="keywords">art object,gemstone,pendant</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<!-- Adventuring Gear -->
+	<element name="Phiole" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_PHIOLE">
+		<description>
+			<p>Phiole.</p>
+		</description>
+		<setters>
+			<set name="keywords">phiole</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
 			<set name="valuable">true</set>
 		</setters>
 	</element>

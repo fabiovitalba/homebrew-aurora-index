@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Magical Items</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
 		</update>
 	</info>
@@ -54,6 +54,23 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Healing Catalyst" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_HEALINGCATALYST">
+		<description>
+			<p>Through an intricate ritual you were able to create this gem. This gem allows to store up to 50 hp of healing. To gain or use stored healing, you have to be linked to this gem.</p>
+			<p>When getting healing you can decide to pass it through this healing catalyst. Doing so allows the healing to work, even if you did not qualify to gain healing. For example undead may get healing from spells that specifically prohibit it.</p>
+			<p class="indent">Through a Bonus Action you can establish or break the connection to this gem.</p>
+			<p class="indent">Each time you use the effects of this gem to gain healing, remove the amount healed from the maximum amount this gem may hold. The maximum amount restores at dusk.</p>
+		</description>
+		<setters>
+			<set name="keywords">gem, healing, catalyst</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
 		</setters>
 	</element>
 </elements>
