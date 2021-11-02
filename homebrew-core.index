@@ -4,7 +4,7 @@
 		<name>Homebrew Core</name>
 		<description>This is the core Homebrew Content.</description>
 		<author>Fabio Vitalba</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="homebrew-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-core.index" />
 		</update>
 	</info>
@@ -16,5 +16,14 @@
 		<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/tashas-cauldron-of-everything.index" />
 		<file name="candlekeep-mysteries.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/candlekeep-mysteries.index" />
 		<file name="van-richtens-guide-to-ravenloft.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/van-richtens-guide-to-ravenloft.index" />
+		<file name="wild-beyond-the-witchlight.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/wild-beyond-the-witchlight.index" />
+
+		<!-- Unearthed Arcana -->
+		<file name="20201026.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2020/20201026.xml" />
+		<file name="20210126.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2021/20210126.xml" />
+		<file name="20210311.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2021/20210311.xml" />
+		<file name="20210414.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2021/20210414.xml" />
+		<file name="20210608.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2021/20210608.xml" />
+		<file name="20211008.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/2021/20211008.xml" />
 	</files>
 </index>
