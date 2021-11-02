@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Jonny Potions</name>
+		<update version="0.0.1">
+			<file name="jonny-items-potions.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-potions.xml" />
+		</update>
+	</info>
+
+	<element name="Wild Mint Tea" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_WILD_MINT_TEA">
+		<description>
+			<p>When drinking a Wild Mint Tea you immediately get more comfortable around strangers and want to invite people, even strangers, into your home. This state holds for 30 minutes, after which you fall into a deep sleep, which takes up to 8 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+    <element name="Shadow Balm Tea" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_SHADOW_BALM_TEA">
+		<description>
+			<p>Allows for save passage through daylight. When you drink this tea, you no longer suffer from any negative effects from sunlight (eg. Sunlight Sensitivity). This Tea is known to cause a dependence. If you take it more often than 1 + CON (min. 1) times a week, then you become dependent. As long as you are dependent on this herb, you need to take it daily or suffer the following effects: Disadvantage on INT and WIS Ability Checks for 1 week.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+    <element name="Heretic Elder Tea" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_HERETIC_ELDER_TEA">
+		<description>
+			<p>When drinking this tea, you enter a transcendent status, where you perceive the real and astral worlds at the same time. While in this state you have Disadvantage on INT Ability Checks and Saving Throws. This State holds for 10 minutes. After the 10 minutes have elapsed, you need to succeed a DC 15 WIS Saving Throw, or take 2d10 psychic damage.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>

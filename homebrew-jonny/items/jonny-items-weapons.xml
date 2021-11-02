@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 		</update>
 	</info>
@@ -40,6 +40,41 @@
 			<set name="attunement">true</set>
 			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
 			<set name="name-format">Shield of Sboing</set>
+		</setters>
+	</element>
+
+	<element name="Death's Kiss (Legacy)" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_DEATHSKISS">
+		<description>
+			<p class="indent"><b>Base Item:</b> You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><b>1st Ritual Attunement:</b> The bow telepathically communicates with you, telling you "Kill those who've wronged you." in Elvish. In order to unlock this Tier, you have to deal a Killing Blow, using this Bow, to five (5) enemies that stand in your path of vengance. Doing so grants you the following ability:</p>
+			<p class="indent"><b>Venomous Arrow:</b> Using an Action, you can imbue an arrow with a magical venom, that the bow applies. This venom remains on the arrow for 1 minute or until it hits a target. If a target is struck by this arrow, it must succeed in a DC 15 CON Saving Throw, or take 2d10 poison damage and be poisoned for 1 minute. Furthermore the target is knocked prone.</p>
+			<p class="indent"><b>2nd Ritual Attunement:</b> ???. Doing so grants you the following ability:</p>
+			<p class="indent"><b>Death's Kiss:</b> All arrows shot from this bow are enchanted with necromantic energies. When a target is struck by one of these Arrows, it is wounded. Any wounded target takes 1d4 necrotic damage for each wound they suffered. Afterwards they may make a DC 15 CON Saving Throw in order to end all the wounds effects. Alternatively a creature withing 5 feet of it may make a DC 15 WIS (Medicine) check to end the wound's effect.</p>
+		</description>
+		<setters>
+			<set name="keywords">longbow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Longbow</set>
+		</setters>
+	</element>
+
+	<element name="Death's Embrace" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_DEATHSEMBRACE">
+		<description>
+			<p>This quiver always holds exactly 20 charges of silver arrows. When an arrow is taken from this quiver, a new arrow appears in it's place.</p>
+			<p class="indent">You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>
+		</description>
+		<setters>
+			<set name="keywords">ammunition</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 </elements>
