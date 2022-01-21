@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Magical Items</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
 		</update>
 	</info>
@@ -72,5 +72,19 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
 		</setters>
+	</element>
+
+	<element name="Coin of Illusion" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_COINOFILLUSION">		
+		<description>
+			<p>This is a small coin you can use to conjure a <em>Major Illusion</em>. When used this coin disappears.</p>
+		</description>
+		<setters>
+			<set name="keywords">coin, illusion, major, conjure</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>		
 	</element>
 </elements>
