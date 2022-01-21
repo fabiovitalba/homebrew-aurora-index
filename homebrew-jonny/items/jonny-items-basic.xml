@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
 		</update>
 	</info>
@@ -126,6 +126,58 @@
 		</setters>
 	</element>
 
+	<element name="Family Medallion" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_FAMILY_MEDALLION">
+		<description>
+			<p>This Family Medallion contains an image of a Father, Wife and child. It was once in the property of the Vampire Nosferatu.</p>
+		</description>
+		<setters>
+			<set name="keywords">pendant, medallion, nosferatu</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Vampire Tooth (Elder)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_VAMPIRE_TOOTH_ELDER">
+		<description>
+			<p>A tooth extracted directly from the mouth of an elder Vampire.</p>
+		</description>
+		<setters>
+			<set name="keywords">tooth</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="List of Names (Vampires)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_LIST_OF_NAMES_VAMPIRES">
+		<description>
+			<p>This is a List containing various names of possibile Targets by the Vampires.</p>
+		</description>
+		<setters>
+			<set name="keywords">list, targets, vampire</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Armored Suit (Vampires)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_ARMORED_SUIT_VAMPIRES">
+		<description>
+			<p>This is an armored suit, looking like an old steampunky diving suit.</p>
+		</description>
+		<setters>
+			<set name="keywords">suit, vampire, diving</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
 	<!-- Adventuring Gear -->
 	<element name="Phiole" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_PHIOLE">
 		<description>
@@ -133,6 +185,33 @@
 		</description>
 		<setters>
 			<set name="keywords">phiole</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Bola Bola" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_BOLA_BOLA">		
+		<description>
+			<p>This is a heavy bola bola that you may throw at a target within range. This counts as a Ranged Attack without proficiency. If a target is struck by a Bola Bola it becomes <em>Restrained</em>. The target can free itself using an action.</p>
+		</description>
+		<setters>
+			<set name="keywords">bola, trap, ranged, thrown, restrained</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>		
+	</element>
+
+	<!-- Recipes -->
+	<element name="Recipe for Sunshade" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_RECIPE_FOR_SUNSHADE">
+		<description>
+			<p>This recipe holds the secret on how to mix a potion of <em>Sunshade</em>.</p>
+		</description>
+		<setters>
+			<set name="keywords">recipe, sunshade</set>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="stackable">true</set>

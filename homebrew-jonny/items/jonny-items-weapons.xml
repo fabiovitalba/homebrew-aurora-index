@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 		</update>
 	</info>
@@ -75,6 +75,20 @@
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<!-- Magic Ammunition -->
+	<element name="Vampire Tooth Arrow (Elder)" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HB_JONNY_ITEM_WEAPON_VAMPIRE_TOOTH_ARROW_ELDER">
+		<description>
+			<p>This arrow was crafted using the tooth of an elder Vampire. When used it counts as a magic weapon. If a creature is struck by this arrow it must make a DC 17 Constitution save. On a failed save it takes 2d10 necrotic damage, otherwise it just takes half of the damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">arrow</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
 </elements>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Potions</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="jonny-items-potions.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-potions.xml" />
 		</update>
 	</info>
@@ -36,6 +36,19 @@
     <element name="Heretic Elder Tea" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_HERETIC_ELDER_TEA">
 		<description>
 			<p>When drinking this tea, you enter a transcendent status, where you perceive the real and astral worlds at the same time. While in this state you have Disadvantage on INT Ability Checks and Saving Throws. This State holds for 10 minutes. After the 10 minutes have elapsed, you need to succeed a DC 15 WIS Saving Throw, or take 2d10 psychic damage.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Sunshade Potion" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_SUNSHADE_POTION">
+		<description>
+			<p>When drinking this potion, you become immune to any effects the Sun usually gives you. This applies to any disadvantages or penalities standing in direct sunlight might give you. Best suited for Vampires or Dark elves. The effect lasts for 24h.</p>
 		</description>
 		<setters>
 			<set name="category">Potions</set>

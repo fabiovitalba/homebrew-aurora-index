@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Magical Items</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
 		</update>
 	</info>
@@ -80,6 +80,48 @@
 		</description>
 		<setters>
 			<set name="keywords">coin, illusion, major, conjure</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>		
+	</element>
+
+	<element name="Jack in a Box" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_JACK_IN_A_BOX">		
+		<description>
+			<p>This is a small box you can place at any location of your liking. You can set after how many rounds it's activated. Once activated all creatures within range are targeted by the <em>Fear</em> Spell. This Item holds 1 charge and restores 1 charge after a Short rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">jack, box, trap</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>		
+	</element>
+
+	<element name="Magic Bola Bola" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_MAGIC_BOLA_BOLA">		
+		<description>
+			<p>This is a heavy bola bola that you may throw at a target within range. This counts as a Ranged Attack without proficiency. If a target is struck by a Magic Bola Bola it becomes the target of a <em>Slow</em> Spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">bola, trap, ranged, thrown, slow</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>		
+	</element>
+
+	<element name="Smokey the Candy Cane" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_SMOKEY_THE_CANDY_CANE">		
+		<description>
+			<p>This is a large, dark Candy Cane. Once you break the Candy Cane in half, smokes come out of it and <em>Fog Cloud</em> is cast.</p>
+		</description>
+		<setters>
+			<set name="keywords">trap, candy, cane, fog, cloud</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
