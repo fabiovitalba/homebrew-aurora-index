@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 		</update>
 	</info>
@@ -78,8 +78,23 @@
 		</setters>
 	</element>
 
+	<element name="Dagger of Life Stealing" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_DAGGER_OF_LIFE_STEALING">
+		<description>
+			<p>When you attack a creature with this magic weapon and roll a 19, or 20 on the attack roll, that target takes an extra 3d6 necrotic damage, provided that the target isn't a construct or an undead. You gain temporary hit points equal to the extra damage dealt.</p>
+		</description>
+		<setters>
+			<set name="keywords">dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="name-format">Dagger of Life Stealing</set>
+		</setters>
+	</element>
+
 	<!-- Magic Ammunition -->
-	<element name="Vampire Tooth Arrow (Elder)" type="Magic Item" source="Dungeon Master’s Guide" id="ID_HB_JONNY_ITEM_WEAPON_VAMPIRE_TOOTH_ARROW_ELDER">
+	<element name="Vampire Tooth Arrow (Elder)" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_VAMPIRE_TOOTH_ARROW_ELDER">
 		<description>
 			<p>This arrow was crafted using the tooth of an elder Vampire. When used it counts as a magic weapon. If a creature is struck by this arrow it must make a DC 17 Constitution save. On a failed save it takes 2d10 necrotic damage, otherwise it just takes half of the damage.</p>
 		</description>

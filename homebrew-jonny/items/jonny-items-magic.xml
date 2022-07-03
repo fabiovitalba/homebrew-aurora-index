@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Magical Items</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
 		</update>
 	</info>
@@ -128,5 +128,23 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
 		</setters>		
+	</element>
+
+	<element name="Icewall Armor" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_ICEWALL_ARMOR">
+		<description>
+			<p>While wearing this armor, you gain the ability to cast "Icewall" twice per day.</p>
+			<p class="indent"><strong><em>Icewall. </em></strong>Twice per day you may activate the armore and create a small Icewall in a space that is not occupied by a creature, that you can see, within 50 ft.</p>
+		</description>
+		<setters>
+			<set name="keywords">plate</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">550</set>
+			<set name="slot">body</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="cursed">true</set>
+			<set name="armor">Plate</set>
+		</setters>
 	</element>
 </elements>

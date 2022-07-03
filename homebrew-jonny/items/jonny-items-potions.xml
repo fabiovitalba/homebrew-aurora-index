@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Potions</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="jonny-items-potions.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-potions.xml" />
 		</update>
 	</info>
@@ -55,6 +55,45 @@
 			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Potion</set>
 			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Yellow Potion of Carcosa" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_YELLOW_POTION_OF_CARCOSA">
+		<description>
+			<p>This potion was given to Seri Kelthrai from an Old lady, telling him that he may drink from it three times. The first time gives you a vision. The second time gives you a nightmare. The third time gives you insanity.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Small medicine" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_SMALL_MEDICINE">
+		<description>
+			<p>This small medicine was sold by Morbius in Hildum of the past.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Potion of Mass Teleporation" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_POTION_OF_MASS_TELEPORTATION">		
+		<description>
+			<p>When drinking this potion, it's effect starts to take form. After 1 minute you teleport all creatures touching you within 5 ft. of you. You can teleport to a point that you can see and where all creatures touching you will fit.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>

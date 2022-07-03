@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
 		</update>
 	</info>
@@ -178,6 +178,19 @@
 		</setters>
 	</element>
 
+	<element name="Mystic Golden Key" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_MYSTIC_GOLDEN_KEY">
+		<description>
+			<p>This is a key that was used to open a vitrine where a very dangerous potion was stored. The potion was destroyed, but the Key still emits a very peculiar aura. Kail recommends destroying it.</p>
+		</description>
+		<setters>
+			<set name="keywords">key, golden, kail</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
 	<!-- Adventuring Gear -->
 	<element name="Phiole" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_PHIOLE">
 		<description>
@@ -203,6 +216,19 @@
 			<set name="stackable">true</set>
 			<set name="valuable">true</set>
 		</setters>		
+	</element>
+
+	<element name="Silver Arrow" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_SILVER_ARROW">
+		<description>
+			<p>Silver Arrows are used with a bow to make a ranged attack, best used against mystic creatures.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0.05">1/20 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="stackable">true</set>
+		</setters>
 	</element>
 
 	<!-- Recipes -->
