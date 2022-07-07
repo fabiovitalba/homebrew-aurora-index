@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Potions</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="jonny-items-potions.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-potions.xml" />
 		</update>
 	</info>
@@ -96,5 +96,24 @@
 			<set name="rarity">Very Rare</set>
 			<set name="stackable">true</set>
 		</setters>
+	</element>
+
+	<element name="Purple Pollen" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_POTIONS_PURPLE_POLLEN_POISON">
+		<description>
+			<p>Contact with Eyes.</p>
+			<p>Made from the spores of Violet Fungus mixed with powdered peppers. Often found in areas close to Underdark entrances. Comes in a vellum pouch roughly the size of a fist. Once mixed this powder loses all potency after 4 days.</p>
+			<p>Once inhaled or thrown into eyes of target, target must make a DC 20 Constitution save. On a failed save target takes 1d8 Necrotic damage, and suffers a random short-term madness (DMG pg #259). On a successful save target takes half damage and no madness effect.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,inhaled</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Purple Pollen (Inhaled)" />
 	</element>
 </elements>

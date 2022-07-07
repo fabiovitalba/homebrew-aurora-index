@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Magical Items</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="jonny-items-magic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-magic.xml" />
 		</update>
 	</info>
@@ -85,7 +85,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
-		</setters>		
+		</setters>
 	</element>
 
 	<element name="Jack in a Box" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_JACK_IN_A_BOX">		
@@ -99,7 +99,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
-		</setters>		
+		</setters>
 	</element>
 
 	<element name="Magic Bola Bola" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_MAGIC_BOLA_BOLA">		
@@ -113,7 +113,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
-		</setters>		
+		</setters>
 	</element>
 
 	<element name="Smokey the Candy Cane" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_SMOKEY_THE_CANDY_CANE">		
@@ -127,7 +127,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
-		</setters>		
+		</setters>
 	</element>
 
 	<element name="Icewall Armor" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_ICEWALL_ARMOR">
@@ -145,6 +145,64 @@
 			<set name="rarity">Very Rare</set>
 			<set name="cursed">true</set>
 			<set name="armor">Plate</set>
+		</setters>
+	</element>
+
+	<element name="Lamp of Alhazred" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_LAMP_OF_ALHAZRED">		
+		<description>
+			<p>This odd stone lantern seems out of place no matter where it is located. When lit in a dark area, the light it casts on any wall reveals visionary windows to other times and places. If no time and place is chosen when the lamp is lit, a random one manifests. The viewed location must have a surface of at least comparable size for the window to appear on. This window is two-way, but does not allow travel. If creatures viewed can traverse the distance on their own, however (such as via <em>teleportation</em>), they might investigate the lamp’s subject. The chosen subject can be in the future or the past and at any location, although the location is accurate only to within 100 miles and the time is accurate only to within 10 years. The lamp can be used once per hour by burning 1 pint of oil. Extinguishing the lamp closes the window. If fuel remains and the lamp is activated once more, it shows nothing unusual.</p>
+			<p>A new window cannot be opened until the lamp has burned for 1 hour total, using up the entirety of its fuel. Extinguishing the lantern and adding a new pint of oil to refuel it is required before the lantern can open another window.</p>
+		</description>
+		<setters>
+			<set name="keywords">lamp,alhazred,visions</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">75000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Helm of Mind Shielding" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_HELM_OF_MIND_SHIELDING">
+		<description>
+			<p>This helm looks like a Construction Workers Helmet.</p>
+			<p>While wearing this helm, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p>
+			<p class="indent">If you die while wearing the helm, your soul enters it, unless it already houses a soul. You can remain in the helm or depart for the afterlife. As long as your soul is in the helm, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">head</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Crystal Ball (Christmas Tree)" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_CRYSTAL_BALL_CHRISTMAS_TREE">
+		<description>
+			<p>This crystal ball looks like it came off a christmas tree as decoration. Once per long rest you may use it to cast the <em>Daylight</em> Spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">crystal,ball,christmas,tree,daylight,spell,casting</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Suggestive Cupcake" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_MAGIC_SUGGESTIVE_CUPCAKE">
+		<description>
+			<p>If a creature eats this cupcake a <em>Suggestion</em> spell is casted. The creature automatically fails it, unless it has special resistances or is more than one size bigger than you.</p>
+		</description>
+		<setters>
+			<set name="keywords">suggestion,cupcake,sweets,size</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
 		</setters>
 	</element>
 </elements>

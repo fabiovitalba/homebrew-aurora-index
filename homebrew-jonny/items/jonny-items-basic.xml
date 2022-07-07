@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
 		</update>
 	</info>
@@ -187,6 +187,45 @@
 			<set name="category">Treasure</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Book of Witch Circles" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_BOOK_OF_WITCH_CIRCLES">
+		<description>
+			<p>This book contains detailed information about the With Circles living in Örrebro.</p>
+		</description>
+		<setters>
+			<set name="keywords">book,witch,circles,örrebro</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">false</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Weirdly smelling hip flask" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_WEIRDLY_SMELLING_HIP_FLASK">
+		<description>
+			<p>This hip flask contains some weirdly smelling liquid.</p>
+		</description>
+		<setters>
+			<set name="keywords">hip,flask,liquid,weird,smell</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">false</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Incomplete game of solitaire" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_INCOMPLETE_SOLITAIRE_GAME">
+		<description>
+			<p>This is a game of solitaire (cards) but it's missing a few cards.</p>
+		</description>
+		<setters>
+			<set name="keywords">cards,game,solitaire</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">false</set>
 			<set name="valuable">true</set>
 		</setters>
 	</element>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="jonny-items-weapons.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-weapons.xml" />
 		</update>
 	</info>
@@ -86,10 +86,26 @@
 			<set name="keywords">dagger</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="any sword">Weapon</set>
+			<set name="weapon">Dagger</set>
+			<set name="type" addition="dagger">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
-			<set name="name-format">Dagger of Life Stealing</set>
+		</setters>
+	</element>
+
+	<element name="Hammer of Moradin" type="Magic Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_WEAPON_HAMMER_OF_MORADIN">
+		<description>
+			<p>This is the Hammer of Moradin, found in the hands of a Vampire called Morbius. This hammer is surrounded by an energetic aura.</p>
+			<p class="indent"><strong><em>Bounce. (Once per round)</em></strong> When you land an attack on an enemy, it jumps to another target near it. It can only hit enemies with the same or less AC as the main target. Each bounce deals 1d8 damage, you may add your weapon damage modifiers to it's damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">warhammer,hammer,moradin,ricochet</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="warhammer">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">Warhammer</set>
 		</setters>
 	</element>
 
