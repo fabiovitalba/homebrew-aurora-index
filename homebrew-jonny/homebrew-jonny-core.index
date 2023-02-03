@@ -4,7 +4,7 @@
 		<name>Homebrew Core - Core</name>
 		<description>This is the core Homebrew Content.</description>
 		<author url="">Fabio Vitalba</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="homebrew-jonny-core.index" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/homebrew-jonny-core.index" />
 		</update>
 	</info>

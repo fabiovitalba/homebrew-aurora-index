@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Jonny Weapons</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="jonny-items-basic.xml" url="https://raw.githubusercontent.com/fabiovitalba/homebrew-aurora-index/main/homebrew-jonny/items/jonny-items-basic.xml" />
 		</update>
 	</info>
@@ -267,6 +267,45 @@
 			<set name="weight" lb="0.05">1/20 lb.</set>
 			<set name="type">Ammunition</set>
 			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Key to B32" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_KEY_TO_B32">
+		<description>
+			<p>This blue key has an engraved "B32" on it.</p>
+		</description>
+		<setters>
+			<set name="keywords">key, b32, guard, locker</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Guard Armor (Geo Kodrain)" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_GUARD_ARMOR_GEO_KODRAIN">
+		<description>
+			<p>This is a guards armor of the Underdark City of "Geo Kodrain".</p>
+		</description>
+		<setters>
+			<set name="keywords">guard, armor, underdark, geo, kodrain</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+
+	<element name="Blue Pearl Necklace" type="Item" source="Homebrew (Jonny)" id="ID_HB_JONNY_ITEM_BASIC_BLUE_PEARL_NECKLACE">
+		<description>
+			<p>A Necklace with three blue pearls.</p>
+		</description>
+		<setters>
+			<set name="keywords">necklace</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
 		</setters>
 	</element>
 
